@@ -17,30 +17,30 @@
 .sunset-gradient.loading:after {
   content: '';
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 10%;
+  height: 15%;
   position: absolute;
   left: 50%;
   top: 50%;
-  border-radius: 50%;
+  border-radius: 40%;
   border-width: 6px;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.5) transparent rgba(255, 255, 255, 0.5) transparent;
+  border-color: rgba(255, 255, 255, 0.5) rgba(255, 255, 255, 0.5) transparent transparent;
   animation: sunset-gradient-loading-indicator 2s linear infinite;
 }
 
 .sunset-gradient.waiting:after {
   content: '';
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 20%;
+  height: 25%;
   position: absolute;
   left: 50%;
   top: 50%;
-  border-radius: 50%;
+  border-radius: 40%;
   border-width: 6px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, 0.5) transparent rgba(0, 0, 0, 0.5) transparent;
+  border-color: rgba(0, 0, 0, 0.776) rgba(0, 0, 0, 0.776) transparent transparent;
   animation: sunset-gradient-loading-indicator 2s linear infinite;
 }
 
