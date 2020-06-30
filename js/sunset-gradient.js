@@ -2,7 +2,7 @@
  * Generate sunset sky gradient using a live webcam image.
  * @param {HTMLElement|string} container Where to output the gradient.
  * @param {Object} [options]
- * @param {string} [options.cities=./cities.json] Where to load city definitions from.
+ * @param {string} [options.cities=https://cdn.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/streams/cities.json] Where to load city definitions from.
  * @param {string} [options.proxyUrl=https://pure-crag-66869.herokuapp.com/] Proxy server to use to load webcam images.
  * @param {boolean} [options.fullscreenOnClick=true] Whether to toggle fullscreen on click or not.
  * @param {boolean} [options.debug=false] Whether to output debug entries to the console or not.
