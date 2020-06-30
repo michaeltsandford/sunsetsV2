@@ -1,0 +1,886 @@
+[
+  {
+    "name": "Kingman",
+    "url": "http://47.206.153.88:80/mjpg/video.mjpg",
+    "lat": 35.17,
+    "lon": -114.05,
+    "top": {
+      "x": 50,
+      "y": 0,
+      "w": 50,
+      "h": 50,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 50,
+      "y": 300,
+      "w": 50,
+      "h": 50,
+      "sat": 180,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    }
+  },
+  {
+    "name": "Makawao",
+    "url": "http://72.234.41.178:50000/mjpg/video.mjpg",
+    "lat": 20.86,
+    "lon": -156.31,
+    "top": {
+      "x": 0,
+      "y": 30,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 0,
+      "y": 270,
+      "w": 30,
+      "h": 30,
+      "sat": 150,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    }
+  },
+  {
+    "name": "Yilan",
+    "url": "http://140.111.180.116:90/GetImage.cgi?CH=0?",
+    "lat": 24.7,
+    "lon": 121.74,
+    "top": {
+      "x": 600,
+      "y": 0,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 445,
+      "y": 140,
+      "w": 30,
+      "h": 30,
+      "sat": 180,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    }
+  },
+  {
+    "name": "Bangkok",
+    "url": "http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp",
+    "lat": 13.76,
+    "lon": 100.5,
+    "top": {
+      "x": 610,
+      "y": 0,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 610,
+      "y": 80,
+      "w": 30,
+      "h": 30,
+      "sat": 180,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    }
+  },
+  {
+    "name": "Moscow",
+    "url": "http://46.38.98.114:90/mjpg/video.mjpg",
+    "lat": 55.76,
+    "lon": 37.62,
+    "top": {
+      "x": 760,
+      "y": 0,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 710,
+      "y": 375,
+      "w": 30,
+      "h": 30,
+      "sat": 240,
+      "con": 1.2,
+      "hue": -5,
+      "br": 1
+    }
+  },
+  {
+    "name": "Chisinau",
+    "url": "http://89.37.47.203/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&",
+    "lat": 47,
+    "lon": 28.86,
+    "top": {
+      "x": 0,
+      "y": 0,
+      "w": 10,
+      "h": 10,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 245,
+      "y": 27,
+      "w": 8,
+      "h": 8,
+      "sat": 260,
+      "con": 1.3,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Saarlouis",
+    "url": "http://46.165.145.199:91/oneshotimage1?",
+    "lat": 49.31,
+    "lon": 6.75,
+    "top": {
+      "x": 1250,
+      "y": 690,
+      "w": 30,
+      "h": 30,
+      "sat": 180,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 1220,
+      "y": 430,
+      "w": 20,
+      "h": 20,
+      "sat": 240,
+      "con": 1.3,
+      "hue": -10,
+      "br": 0.95
+    }
+  },
+  {
+    "name": "Hannover",
+    "url": "http://77.20.243.28/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 52.37,
+    "lon": 9.73,
+    "top": {
+      "x": 900,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 450,
+      "y": 200,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.4,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Amsterdam",
+    "url": "http://84.28.88.219:8081/mjpg/video.mjpg",
+    "lat": 52.37,
+    "lon": 4.89,
+    "top": {
+      "x": 350,
+      "y": 50,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 350,
+      "y": 450,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": -10,
+      "br": 1
+    }
+  },
+  {
+    "name": "Derio",
+    "url": "http://212.8.110.23/-wvhttp-01-/GetOneShot?",
+    "lat": 43.3,
+    "lon": -2.88,
+    "top": {
+      "x": 1,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 1,
+      "y": 60,
+      "w": 30,
+      "h": 20,
+      "sat": 240,
+      "con": 1.2,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Linz",
+    "url": "http://78.132.64.197:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&",
+    "lat": 48.31,
+    "lon": 14.29,
+    "top": {
+      "x": 1,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 150,
+      "y": 38,
+      "w": 20,
+      "h": 20,
+      "sat": 260,
+      "con": 1.3,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Litomysl",
+    "url": "http://160.218.213.194:8080/snap.jpg?JpegSize=S&JpegCam=1&",
+    "lat": 49.87,
+    "lon": 16.31,
+    "top": {
+      "x": 245,
+      "y": 1,
+      "w": 10,
+      "h": 10,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 82,
+      "y": 5,
+      "w": 10,
+      "h": 7,
+      "sat": 260,
+      "con": 1.2,
+      "hue": 10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Tokyo",
+    "url": "http://218.45.173.232:8000/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp",
+    "lat": 35.69,
+    "lon": 139.7,
+    "top": {
+      "x": 270,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 305,
+      "y": 165,
+      "w": 20,
+      "h": 20,
+      "sat": 240,
+      "con": 1.2,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Mount Laurel",
+    "url": "http://50.227.41.1:80/mjpg/video.mjpg",
+    "lat": 39.95,
+    "lon": -74.92,
+    "top": {
+      "x": 5,
+      "y": 5,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 990,
+      "y": 370,
+      "w": 30,
+      "h": 30,
+      "sat": 250,
+      "con": 1.4,
+      "hue": -20,
+      "br": 1
+    }
+  },
+  {
+    "name": "Metallostroy",
+    "url": "http://94.72.9.182:80/mjpg/video.mjpg",
+    "lat": 59.8,
+    "lon": 30.55,
+    "top": {
+      "x": 730,
+      "y": 30,
+      "w": 30,
+      "h": 30,
+      "sat": 180,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 90,
+      "y": 190,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Auckland",
+    "url": "http://103.37.205.23:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": -36.87,
+    "lon": 174.77,
+    "top": {
+      "x": 300,
+      "y": 10,
+      "w": 30,
+      "h": 30,
+      "sat": 300,
+      "con": 1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 30,
+      "y": 202,
+      "w": 20,
+      "h": 20,
+      "sat": 300,
+      "con": 1.3,
+      "hue": -20,
+      "br": 1
+    }
+  },
+  {
+    "name": "Kona",
+    "url": "http://24.43.239.50:80/mjpg/video.mjpg",
+    "lat": 19.64,
+    "lon": -155.99,
+    "top": {
+      "x": 250,
+      "y": 0,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 500,
+      "y": 140,
+      "w": 20,
+      "h": 20,
+      "sat": 240,
+      "con": 1.2,
+      "hue": -20,
+      "br": 1
+    }
+  },
+  {
+    "name": "Dortmund",
+    "url": "http://87.139.9.247:80/mjpg/video.mjpg",
+    "lat": 51.51,
+    "lon": 7.47,
+    "top": {
+      "x": 0,
+      "y": 35,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 100,
+      "y": 280,
+      "w": 30,
+      "h": 30,
+      "sat": 210,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    }
+  },
+  {
+    "name": "Tallinn",
+    "url": "http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&",
+    "lat": 59.44,
+    "lon": 24.75,
+    "top": {
+      "x": 730,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 550,
+      "y": 190,
+      "w": 30,
+      "h": 30,
+      "sat": 240,
+      "con": 1.2,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Sierre",
+    "url": "http://213.221.142.195:8888/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 46.29,
+    "lon": 7.54,
+    "top": {
+      "x": 350,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 450,
+      "y": 150,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Kristiansund",
+    "url": "http://85.93.226.222:8082/mjpg/video.mjpg",
+    "lat": 63.11,
+    "lon": 7.72,
+    "top": {
+      "x": 250,
+      "y": 0,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1.1
+    },
+    "bot": {
+      "x": 500,
+      "y": 140,
+      "w": 20,
+      "h": 20,
+      "sat": 240,
+      "con": 1.2,
+      "hue": -20,
+      "br": 1
+    }
+  },
+  {
+    "name": "Kamen Na Obi",
+    "url": "http://109.248.235.90:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&",
+    "lat": 53.79,
+    "lon": 81.34,
+    "top": {
+      "x": 80,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 800,
+      "y": 150,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.4,
+      "hue": -10,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Udine",
+    "url": "http://188.12.60.168:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 46.06,
+    "lon": 13.24,
+    "top": {
+      "x": 250,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 130,
+      "y": 220,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Meguro Ku",
+    "url": "http://115.179.100.76:8080/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp",
+    "lat": 35.63,
+    "lon": 139.68,
+    "top": {
+      "x": 160,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 490,
+      "y": 50,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Liyama",
+    "url": "http://220.254.144.230:50000/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&",
+    "lat": 36.85,
+    "lon": 138.37,
+    "top": {
+      "x": 605,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.95
+    },
+    "bot": {
+      "x": 300,
+      "y": 160,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Sint Amands",
+    "url": "http://188.210.92.19:80/oneshotimage1?",
+    "lat": 51.06,
+    "lon": 4.21,
+    "top": {
+      "x": 50,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.95
+    },
+    "bot": {
+      "x": 400,
+      "y": 190,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Barcelona",
+    "url": "http://81.47.179.157:8081/mjpg/video.mjpg",
+    "lat": 41.39,
+    "lon": 2.16,
+    "top": {
+      "x": 2,
+      "y": 2,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 400,
+      "y": 330,
+      "w": 30,
+      "h": 30,
+      "sat": 260,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Derby",
+    "url": "http://95.177.20.83:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 52.92,
+    "lon": -1.48,
+    "top": {
+      "x": 600,
+      "y": 20,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 430,
+      "y": 110,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.3,
+      "hue": 0,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Sochi",
+    "url": "http://158.58.130.149:80/mjpg/video.mjpg",
+    "lat": 43.6,
+    "lon": 39.73,
+    "top": {
+      "x": 210,
+      "y": 0,
+      "w": 10,
+      "h": 10,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 450,
+      "y": 25,
+      "w": 10,
+      "h": 10,
+      "sat": 230,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    }
+  },
+  {
+    "name": "Akersberga",
+    "url": "http://193.234.156.26:8081/mjpg/video.mjpg",
+    "lat": 59.48,
+    "lon": 18.3,
+    "top": {
+      "x": 510,
+      "y": 1,
+      "w": 30,
+      "h": 10,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 300,
+      "y": 290,
+      "w": 30,
+      "h": 30,
+      "sat": 270,
+      "con": 1.3,
+      "hue": -10,
+      "br": 0.95
+    }
+  },
+  {
+    "name": "Sao Paulo",
+    "url": "http://191.241.235.43/mjpg/video.mjpg",
+    "lat": -23.55,
+    "lon": -46.64,
+    "top": {
+      "x": 510,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 530,
+      "y": 138,
+      "w": 30,
+      "h": 30,
+      "sat": 240,
+      "con": 1.3,
+      "hue": 0,
+      "br": 1
+    }
+  },
+  {
+    "name": "Garath",
+    "url": "http://87.138.157.245/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 51.14,
+    "lon": 6.91,
+    "top": {
+      "x": 170,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 300,
+      "y": 140,
+      "w": 30,
+      "h": 30,
+      "sat": 240,
+      "con": 1.3,
+      "hue": 0,
+      "br": 1
+    }
+  },
+  {
+    "name": "Seattle",
+    "url": "http://209.206.162.229:80/mjpg/video.mjpg",
+    "lat": 47.61,
+    "lon": -122.33,
+    "top": {
+      "x": 140,
+      "y": 4,
+      "w": 20,
+      "h": 20,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 145,
+      "y": 40,
+      "w": 10,
+      "h": 10,
+      "sat": 270,
+      "con": 1.4,
+      "hue": 0,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "YuzhnouralSk",
+    "url": "http://91.209.234.195:80/mjpg/video.mjpg",
+    "lat": 54.44,
+    "lon": 61.25,
+    "top": {
+      "x": 350,
+      "y": 1,
+      "w": 20,
+      "h": 20,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 900,
+      "y": 100,
+      "w": 30,
+      "h": 30,
+      "sat": 270,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  }
+]

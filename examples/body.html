@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Full body example</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <!-- SunsetGradient -->
+    <link rel="stylesheet" href="../sunset-gradient.css">
+  </head>
+  <body>
+    <!-- SunsetGradient -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/5.0.2/screenfull.min.js" integrity="sha256-uPwMWhcz2UIDjmGh2Uc3EmqfW0wgrS8ftknVzXPD06g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js" integrity="sha256-T9XG3F+oZW3IIEb54MXz9Sgmx73NELSCQxndaWN9AI0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/suncalc/1.8.0/suncalc.min.js" integrity="sha256-QQrHWG5ftBlXSj/H5cBsFVMV8L1f7CTdIbg8tpW0y4M=" crossorigin="anonymous"></script>
+    <script src="../sunset-gradient.js"></script>
+    <script>
+      new SunsetGradient('body', {debug: true});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.sunset-gradient {
+  position: relative;
+}
+
+.sunset-gradient.loading {
+  background: linear-gradient(#cbd3ff, #ffc2d3, #ffdac4, #ffe5c4);
+  background-size: 20% 20%;
+  animation: sunset-gradient-loading-gradient 15s ease infinite;
+}
+
+.sunset-gradient.waiting {
+  background: linear-gradient(#ffffff, #ffffff);
+  background-size: 500% 500%;
+  /* animation: sunset-gradient-loading-gradient 15s ease infinite; */
+}
+
+.sunset-gradient.loading:after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5) transparent rgba(255, 255, 255, 0.5) transparent;
+  animation: sunset-gradient-loading-indicator 2s linear infinite;
+}
+
+.sunset-gradient.waiting:after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5) transparent rgba(0, 0, 0, 0.5) transparent;
+  animation: sunset-gradient-loading-indicator 2s linear infinite;
+}
+
+
+.textum.waiting:after {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+@keyframes sunset-gradient-loading-gradient {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes sunset-gradient-loading-indicator {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
