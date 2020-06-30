@@ -67,6 +67,19 @@ function SunsetGradient(container, options) {
     });
   }
 
+  // add transition layers
+  ['A', 'B'].forEach(function(k) {
+    var layer = document.createElement('div');
+
+    layer.setAttribute('class', 'sunset-gradient-layer');
+
+    self.container.appendChild(layer);
+    self['layer' + k] = layer;
+  });
+
+  this.activeLayer = this.layerA;
+  this.inactiveLayer = this.layerB;
+
   // load cities and generate the gradient
   this.setState('loading');
 
@@ -111,7 +124,7 @@ SunsetGradient.prototype.setState = function(state) {
  * @returns {string}
  */
 SunsetGradient.prototype.getDefaultCitiesUrl = function() {
-  var script = document.querySelector('script[src *= "sunset-gradient.js"]');
+  // var script = document.querySelector('script[src *= "sunset-gradient.js"]');
   // var scriptUrl = script.src.split('?')[0];
   var scriptUrl = 'https://cdn.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/streams/cities.json'
 
@@ -173,8 +186,12 @@ SunsetGradient.prototype.handleCitiesLoad = function(err, json) {
  * @param {Object} colors
  */
 SunsetGradient.prototype.setGradient = function(colors) {
-  this.debug('Applying gradient to the container - %s, %s', colors.top, colors.bot);
-  this.container.style = 'background: linear-gradient(' + colors.top + ', ' + colors.bot + ')';
+  this.debug('Applying gradient %s, %s', colors.top, colors.bot);
+  this.inactiveLayer.style.background = 'linear-gradient(' + colors.top + ', ' + colors.bot + ')';
+  this.inactiveLayer.classList.add('sunset-gradient-layer-active');
+  this.activeLayer.classList.remove('sunset-gradient-layer-active');
+  this.activeLayer = this.activeLayer === this.layerA ? this.layerB : this.layerA;
+  this.inactiveLayer = this.inactiveLayer === this.layerA ? this.layerB : this.layerA;
 };
 
 /**
@@ -267,15 +284,36 @@ SunsetGradient.prototype.getSunsetColors = function(city, callback) {
 };
 
 /**
+ * Get city sunset times with custom offsets applied.
+ * @param {Object} city
+ * @returns {Object}
+ */
+SunsetGradient.prototype.getCitySunsetTimes = function(city) {
+  var now = new Date();
+  var times = SunCalc.getTimes(now, city.lat, city.lon);
+  var offset = city.offset || [0, 0];
+
+  if (times.sunsetStart) {
+    times.sunsetStart = new Date(times.sunsetStart.getTime() + offset[0] * 1000 * 60);
+  }
+
+  if (times.dusk) {
+    times.dusk = new Date(times.dusk.getTime() + offset[1] * 1000 * 60);
+  }
+
+  return times;
+};
+
+/**
  * Check whether it's sunset in the specified city.
  * @param {Object} city
  * @returns {boolean}
  */
 SunsetGradient.prototype.isSunsetCity = function(city) {
   var now = new Date();
-  var times = SunCalc.getTimes(now, city.lat, city.lon);
+  var times = this.getCitySunsetTimes(city);
 
-  return times.sunsetStart && times.dusk && times.sunsetStart <= now && times.dusk >= now;
+  return !city.isBlacklisted && times.sunsetStart && times.dusk && times.sunsetStart <= now && times.dusk >= now;
 };
 
 /**
@@ -283,6 +321,8 @@ SunsetGradient.prototype.isSunsetCity = function(city) {
  * @returns {Object}
  */
 SunsetGradient.prototype.updateSunsetCity = function() {
+  var self = this;
+
   // stick to the current city until it's no longer valid
   if (!this.sunsetCity || !this.isSunsetCity(this.sunsetCity)) {
     this.sunsetCity = null;
@@ -298,7 +338,24 @@ SunsetGradient.prototype.updateSunsetCity = function() {
     }
   }
 
-  this.debug('The current sunset city is %o', this.sunsetCity);
+  if (this.sunsetCity) {
+    this.debug('The current sunset city is %o', this.sunsetCity);
+  } else {
+    this.debug('None of the cities have sunset right now');
+  }
+
+  // use the next closest sunset city if none found
+  if (!this.sunsetCity) {
+    this.sunsetCity = this.cities
+      .filter(function(city) {
+        return self.getCitySunsetTimes(city).sunsetStart > new Date();
+      })
+      .sort(function(a, b) {
+        return self.getCitySunsetTimes(a).sunsetStart - self.getCitySunsetTimes(b).sunsetStart;
+      })[0];
+
+    this.debug('Using the next closest one: %o', this.sunsetCity);
+  }
 };
 
 /**
