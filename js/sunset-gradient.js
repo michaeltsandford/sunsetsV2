@@ -6,6 +6,7 @@
  * @param {string} [options.proxyUrl=https://pure-crag-66869.herokuapp.com/] Proxy server to use to load webcam images.
  * @param {boolean} [options.fullscreenOnClick=true] Whether to toggle fullscreen on click or not.
  * @param {boolean} [options.debug=false] Whether to output debug entries to the console or not.
+ * @param {Function} [options.onCityChange] The function to call when city changes.
  * @example
  * // for the whole page, with the default options
  * new SunsetGradient('body');
@@ -47,6 +48,7 @@ function SunsetGradient(container, options) {
 
   this.proxyUrl = options.proxyUrl || 'https://pure-crag-66869.herokuapp.com/';
   this.isDebugEnabled = options.debug;
+  this.triggerOnCityChange = options.onCityChange || new Function();
 
   this.debug('Container: %o', this.container);
   this.debug('Options: %o', options);
@@ -126,8 +128,8 @@ SunsetGradient.prototype.setState = function(state) {
 SunsetGradient.prototype.getDefaultCitiesUrl = function() {
   // var script = document.querySelector('script[src *= "sunset-gradient.js"]');
   // var scriptUrl = script.src.split('?')[0];
-  var scriptUrl = 'https://cdn.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/streams/cities.json'
 
+  var scriptUrl = '../cities.json'
   // return scriptUrl.split('/').slice(0, -1).join('/') + '/cities.json';
   return scriptUrl
 };
@@ -322,6 +324,7 @@ SunsetGradient.prototype.isSunsetCity = function(city) {
  */
 SunsetGradient.prototype.updateSunsetCity = function() {
   var self = this;
+  var oldSunsetCity = this.sunsetCity;
 
   // stick to the current city until it's no longer valid
   if (!this.sunsetCity || !this.isSunsetCity(this.sunsetCity)) {
@@ -356,6 +359,10 @@ SunsetGradient.prototype.updateSunsetCity = function() {
 
     this.debug('Using the next closest one: %o', this.sunsetCity);
   }
+
+  if (oldSunsetCity !== this.sunsetCity) {
+    this.triggerOnCityChange(this.sunsetCity);
+  }
 };
 
 /**
@@ -366,6 +373,14 @@ SunsetGradient.prototype.refreshGradient = function() {
 
   this.debug('Refreshing the gradient');
   this.updateSunsetCity();
+
+  if (this.isDebugEnabled && this.sunsetCity) {
+    var times = this.getCitySunsetTimes(this.sunsetCity);
+
+    this.debug('Current time: %s', new Date());
+    this.debug('Sunset start: %s', times.sunsetStart);
+    this.debug('Sunset end:   %s',times.dusk);
+  }
 
   if (this.sunsetCity) {
     this.getSunsetColors(this.sunsetCity, function(err, colors) {
@@ -391,7 +406,7 @@ SunsetGradient.prototype.refreshGradient = function() {
       self.sunsetCity.failures = 0;
       self.setState('live');
       self.setGradient(colors);
-      setTimeout(self.refreshGradient.bind(self), 12000);
+      setTimeout(self.refreshGradient.bind(self), 6000);
     });
   } else {
     this.setState('waiting');
