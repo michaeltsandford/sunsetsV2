@@ -4,7 +4,7 @@
     "url": "http://47.206.153.88:80/mjpg/video.mjpg",
     "lat": 35.17,
     "lon": -114.05,
-    "offset": [180, -120],
+    "offset": [160, -120],
     "top": {
       "x": 50,
       "y": 0,
@@ -31,7 +31,7 @@
     "url": "http://72.234.41.178:50000/mjpg/video.mjpg",
     "lat": 20.86,
     "lon": -156.31,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 0,
       "y": 30,
@@ -58,7 +58,7 @@
     "url": "http://140.111.180.116:90/GetImage.cgi?CH=0?",
     "lat": 24.7,
     "lon": 121.74,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 600,
       "y": 0,
@@ -85,7 +85,7 @@
     "url": "http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp",
     "lat": 13.76,
     "lon": 100.5,
-    "offset": [100, 50],
+    "offset": [40, 10],
     "top": {
       "x": 610,
       "y": 0,
@@ -97,8 +97,8 @@
       "br": 1.1
     },
     "bot": {
-      "x": 610,
-      "y": 80,
+      "x": 40,
+      "y": 120,
       "w": 30,
       "h": 30,
       "sat": 180,
@@ -112,7 +112,7 @@
     "url": "http://46.38.98.114:90/mjpg/video.mjpg",
     "lat": 55.76,
     "lon": 37.62,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 760,
       "y": 0,
@@ -139,7 +139,7 @@
     "url": "http://89.37.47.203/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&",
     "lat": 47,
     "lon": 28.86,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 0,
       "y": 0,
@@ -166,7 +166,7 @@
     "url": "http://46.165.145.199:91/oneshotimage1?",
     "lat": 49.31,
     "lon": 6.75,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 1250,
       "y": 690,
@@ -193,7 +193,7 @@
     "url": "http://77.20.243.28/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 52.37,
     "lon": 9.73,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 900,
       "y": 2,
@@ -220,7 +220,7 @@
     "url": "http://84.28.88.219:8081/mjpg/video.mjpg",
     "lat": 52.37,
     "lon": 4.89,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 350,
       "y": 50,
@@ -247,7 +247,7 @@
     "url": "http://212.8.110.23/-wvhttp-01-/GetOneShot?",
     "lat": 43.3,
     "lon": -2.88,
-    "offset": [100, 0],
+    "offset": [40, 0],
     "top": {
       "x": 1,
       "y": 1,
@@ -274,7 +274,7 @@
     "url": "http://78.132.64.197:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&",
     "lat": 48.31,
     "lon": 14.29,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 1,
       "y": 1,
@@ -301,7 +301,7 @@
     "url": "http://160.218.213.194:8080/snap.jpg?JpegSize=S&JpegCam=1&",
     "lat": 49.87,
     "lon": 16.31,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 245,
       "y": 1,
@@ -328,7 +328,7 @@
     "url": "http://166.168.156.194:81/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 29.76,
     "lon": -95.36,
-    "offset": [100, 0],
+    "offset": [40, 0],
     "top": {
       "x": 200,
       "y": 1,
@@ -355,7 +355,7 @@
     "url": "http://218.45.173.232:8000/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp",
     "lat": 35.69,
     "lon": 139.7,
-    "offset": [100, 0],
+    "offset": [40, 0],
     "top": {
       "x": 270,
       "y": 1,
@@ -382,7 +382,7 @@
     "url": "http://50.227.41.1:80/mjpg/video.mjpg",
     "lat": 39.95,
     "lon": -74.92,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 5,
       "y": 5,
@@ -409,7 +409,7 @@
     "url": "http://94.72.9.182:80/mjpg/video.mjpg",
     "lat": 59.8,
     "lon": 30.55,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 730,
       "y": 30,
@@ -463,7 +463,7 @@
     "url": "http://24.43.239.50:80/mjpg/video.mjpg",
     "lat": 19.64,
     "lon": -155.99,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 250,
       "y": 0,
@@ -490,7 +490,7 @@
     "url": "http://87.139.9.247:80/mjpg/video.mjpg",
     "lat": 51.51,
     "lon": 7.47,
-    "offset": [100, -20],
+    "offset": [40, -20],
     "top": {
       "x": 0,
       "y": 35,
