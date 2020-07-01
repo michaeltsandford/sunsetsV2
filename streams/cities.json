@@ -4,6 +4,7 @@
     "url": "http://47.206.153.88:80/mjpg/video.mjpg",
     "lat": 35.17,
     "lon": -114.05,
+    "offset": [180, -120],
     "top": {
       "x": 50,
       "y": 0,
@@ -30,6 +31,7 @@
     "url": "http://72.234.41.178:50000/mjpg/video.mjpg",
     "lat": 20.86,
     "lon": -156.31,
+    "offset": [100, -20],
     "top": {
       "x": 0,
       "y": 30,
@@ -56,6 +58,7 @@
     "url": "http://140.111.180.116:90/GetImage.cgi?CH=0?",
     "lat": 24.7,
     "lon": 121.74,
+    "offset": [100, -20],
     "top": {
       "x": 600,
       "y": 0,
@@ -82,6 +85,7 @@
     "url": "http://61.91.61.114:8080/cgi-bin/camera?resolution=640&amp;quality=1&amp",
     "lat": 13.76,
     "lon": 100.5,
+    "offset": [100, 50],
     "top": {
       "x": 610,
       "y": 0,
@@ -108,6 +112,7 @@
     "url": "http://46.38.98.114:90/mjpg/video.mjpg",
     "lat": 55.76,
     "lon": 37.62,
+    "offset": [100, -20],
     "top": {
       "x": 760,
       "y": 0,
@@ -134,6 +139,7 @@
     "url": "http://89.37.47.203/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&",
     "lat": 47,
     "lon": 28.86,
+    "offset": [100, -20],
     "top": {
       "x": 0,
       "y": 0,
@@ -160,6 +166,7 @@
     "url": "http://46.165.145.199:91/oneshotimage1?",
     "lat": 49.31,
     "lon": 6.75,
+    "offset": [100, -20],
     "top": {
       "x": 1250,
       "y": 690,
@@ -186,6 +193,7 @@
     "url": "http://77.20.243.28/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 52.37,
     "lon": 9.73,
+    "offset": [100, -20],
     "top": {
       "x": 900,
       "y": 2,
@@ -212,6 +220,7 @@
     "url": "http://84.28.88.219:8081/mjpg/video.mjpg",
     "lat": 52.37,
     "lon": 4.89,
+    "offset": [100, -20],
     "top": {
       "x": 350,
       "y": 50,
@@ -238,6 +247,7 @@
     "url": "http://212.8.110.23/-wvhttp-01-/GetOneShot?",
     "lat": 43.3,
     "lon": -2.88,
+    "offset": [100, 0],
     "top": {
       "x": 1,
       "y": 1,
@@ -264,6 +274,7 @@
     "url": "http://78.132.64.197:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&",
     "lat": 48.31,
     "lon": 14.29,
+    "offset": [100, -20],
     "top": {
       "x": 1,
       "y": 1,
@@ -290,6 +301,7 @@
     "url": "http://160.218.213.194:8080/snap.jpg?JpegSize=S&JpegCam=1&",
     "lat": 49.87,
     "lon": 16.31,
+    "offset": [100, -20],
     "top": {
       "x": 245,
       "y": 1,
@@ -312,10 +324,38 @@
     }
   },
   {
+    "name": "Houston",
+    "url": "http://166.168.156.194:81/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 29.76,
+    "lon": -95.36,
+    "offset": [100, 0],
+    "top": {
+      "x": 200,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 1850,
+      "y": 800,
+      "w": 30,
+      "h": 30,
+      "sat": 240,
+      "con": 1.3,
+      "hue": -10,
+      "br": 1
+    }
+  },
+  {
     "name": "Tokyo",
     "url": "http://218.45.173.232:8000/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp",
     "lat": 35.69,
     "lon": 139.7,
+    "offset": [100, 0],
     "top": {
       "x": 270,
       "y": 1,
@@ -342,6 +382,7 @@
     "url": "http://50.227.41.1:80/mjpg/video.mjpg",
     "lat": 39.95,
     "lon": -74.92,
+    "offset": [100, -20],
     "top": {
       "x": 5,
       "y": 5,
@@ -368,6 +409,7 @@
     "url": "http://94.72.9.182:80/mjpg/video.mjpg",
     "lat": 59.8,
     "lon": 30.55,
+    "offset": [100, -20],
     "top": {
       "x": 730,
       "y": 30,
@@ -394,6 +436,7 @@
     "url": "http://103.37.205.23:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": -36.87,
     "lon": 174.77,
+    "offset": [60, 55],
     "top": {
       "x": 300,
       "y": 10,
@@ -420,6 +463,7 @@
     "url": "http://24.43.239.50:80/mjpg/video.mjpg",
     "lat": 19.64,
     "lon": -155.99,
+    "offset": [100, -20],
     "top": {
       "x": 250,
       "y": 0,
@@ -446,6 +490,7 @@
     "url": "http://87.139.9.247:80/mjpg/video.mjpg",
     "lat": 51.51,
     "lon": 7.47,
+    "offset": [100, -20],
     "top": {
       "x": 0,
       "y": 35,
@@ -472,6 +517,7 @@
     "url": "http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&",
     "lat": 59.44,
     "lon": 24.75,
+    "offset": [280, -110],
     "top": {
       "x": 730,
       "y": 1,
@@ -498,6 +544,7 @@
     "url": "http://213.221.142.195:8888/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 46.29,
     "lon": 7.54,
+    "offset": [60, 0],
     "top": {
       "x": 350,
       "y": 1,
@@ -524,6 +571,7 @@
     "url": "http://85.93.226.222:8082/mjpg/video.mjpg",
     "lat": 63.11,
     "lon": 7.72,
+    "offset": [90, 0],
     "top": {
       "x": 250,
       "y": 0,
@@ -550,6 +598,7 @@
     "url": "http://109.248.235.90:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&",
     "lat": 53.79,
     "lon": 81.34,
+    "offset": [60, 0],
     "top": {
       "x": 80,
       "y": 2,
@@ -576,6 +625,7 @@
     "url": "http://188.12.60.168:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 46.06,
     "lon": 13.24,
+    "offset": [60, 0],
     "top": {
       "x": 250,
       "y": 2,
@@ -602,6 +652,7 @@
     "url": "http://115.179.100.76:8080/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp",
     "lat": 35.63,
     "lon": 139.68,
+    "offset": [60, 0],
     "top": {
       "x": 160,
       "y": 2,
@@ -628,6 +679,7 @@
     "url": "http://220.254.144.230:50000/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&",
     "lat": 36.85,
     "lon": 138.37,
+    "offset": [60, 0],
     "top": {
       "x": 605,
       "y": 2,
@@ -654,6 +706,7 @@
     "url": "http://188.210.92.19:80/oneshotimage1?",
     "lat": 51.06,
     "lon": 4.21,
+    "offset": [60, 0],
     "top": {
       "x": 50,
       "y": 2,
@@ -680,6 +733,7 @@
     "url": "http://81.47.179.157:8081/mjpg/video.mjpg",
     "lat": 41.39,
     "lon": 2.16,
+    "offset": [60, 0],
     "top": {
       "x": 2,
       "y": 2,
@@ -706,6 +760,7 @@
     "url": "http://95.177.20.83:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 52.92,
     "lon": -1.48,
+    "offset": [60, 0],
     "top": {
       "x": 600,
       "y": 20,
@@ -732,6 +787,7 @@
     "url": "http://158.58.130.149:80/mjpg/video.mjpg",
     "lat": 43.6,
     "lon": 39.73,
+    "offset": [60, 0],
     "top": {
       "x": 210,
       "y": 0,
@@ -758,6 +814,7 @@
     "url": "http://193.234.156.26:8081/mjpg/video.mjpg",
     "lat": 59.48,
     "lon": 18.3,
+    "offset": [60, 0],
     "top": {
       "x": 510,
       "y": 1,
@@ -784,6 +841,7 @@
     "url": "http://191.241.235.43/mjpg/video.mjpg",
     "lat": -23.55,
     "lon": -46.64,
+    "offset": [60, 0],
     "top": {
       "x": 510,
       "y": 1,
@@ -810,6 +868,7 @@
     "url": "http://87.138.157.245/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 51.14,
     "lon": 6.91,
+    "offset": [60, 0],
     "top": {
       "x": 170,
       "y": 1,
@@ -836,6 +895,7 @@
     "url": "http://209.206.162.229:80/mjpg/video.mjpg",
     "lat": 47.61,
     "lon": -122.33,
+    "offset": [60, 0],
     "top": {
       "x": 140,
       "y": 4,
@@ -862,6 +922,7 @@
     "url": "http://91.209.234.195:80/mjpg/video.mjpg",
     "lat": 54.44,
     "lon": 61.25,
+    "offset": [60, 0],
     "top": {
       "x": 350,
       "y": 1,
