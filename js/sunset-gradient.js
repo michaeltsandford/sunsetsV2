@@ -129,7 +129,8 @@ SunsetGradient.prototype.getDefaultCitiesUrl = function() {
   // var script = document.querySelector('script[src *= "sunset-gradient.js"]');
   // var scriptUrl = script.src.split('?')[0];
 
-  var scriptUrl = '../cities.json'
+  //var scriptUrl = '../cities.json'
+  var scriptUrl = 'https://cdn.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/streams/cities.json'
   // return scriptUrl.split('/').slice(0, -1).join('/') + '/cities.json';
   return scriptUrl
 };
