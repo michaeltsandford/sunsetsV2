@@ -436,7 +436,7 @@
     "url": "http://103.37.205.23:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": -36.87,
     "lon": 174.77,
-    "offset": [-60, 55],
+    "offset": [-60, 10],
     "top": {
       "x": 300,
       "y": 10,
@@ -936,6 +936,114 @@
     "bot": {
       "x": 900,
       "y": 100,
+      "w": 30,
+      "h": 30,
+      "sat": 270,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Nagoya",
+    "url": "http://202.41.220.34/cgi-bin/camera?resolution=640&amp;quality=1&amp",
+    "lat": 35.18,
+    "lon": 136.91,
+    "offset": [-60, 0],
+    "top": {
+      "x": 1,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 500,
+      "y": 80,
+      "w": 30,
+      "h": 30,
+      "sat": 270,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Nanterre",
+    "url": "http://80.13.228.129:8080/oneshotimage1?",
+    "lat": 48.89,
+    "lon": 2.21,
+    "offset": [-60, 0],
+    "top": {
+      "x": 135,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 80,
+      "y": 65,
+      "w": 20,
+      "h": 20,
+      "sat": 270,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Moscow",
+    "url": "http://185.36.61.220:80/oneshotimage1?",
+    "lat": 55.75,
+    "lon": 37.62,
+    "offset": [-60, 0],
+    "top": {
+      "x": 60,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 5,
+      "y": 180,
+      "w": 30,
+      "h": 30,
+      "sat": 270,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Osaka",
+    "url": "http://153.156.235.87/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "lat": 34.69,
+    "lon": 135.50,
+    "offset": [-60, 0],
+    "top": {
+      "x": 880,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 160,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 1100,
+      "y": 300,
       "w": 30,
       "h": 30,
       "sat": 270,
