@@ -1051,5 +1051,464 @@
       "hue": -20,
       "br": 0.9
     }
+  },
+  {
+    "name": "Melbourne",
+    "url": "http://118.127.105.138:8080/-wvhttp-01-/GetOneShot?image_size=640x480",
+    "lat": -37.81,
+    "lon": 144.96,
+    "offset": [-60, 0],
+    "top": {
+      "x": 1,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 250,
+      "y": 200,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Sydney",
+    "url": "http://220.233.144.165:8888/mjpg/video.mjpg",
+    "lat": -33.87,
+    "lon": 151.20,
+    "offset": [-60, 0],
+    "top": {
+      "x": 700,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 180,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 419,
+      "y": 140,
+      "w": 30,
+      "h": 30,
+      "sat": 290,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Kobe",
+    "url": "http://119.230.125.204:80/cgi-bin/camera?resolution=640&amp;quality=1&amp",
+    "lat": 34.69,
+    "lon": 135.20,
+    "offset": [-60, 0],
+    "top": {
+      "x": 400,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 540,
+      "y": 220,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Desa",
+    "url": "http://119.252.169.189:82/snap.jpg?JpegSize=M&JpegCam=1&",
+    "lat": -7.47,
+    "lon": 108.02,
+    "offset": [-60, 0],
+    "top": {
+      "x": 30,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 290,
+      "y": 60,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Bien Hoa",
+    "url": "http://115.79.209.40:81/webcapture.jpg?command=snap&channel=1?",
+    "lat": 10.95,
+    "lon": 106.82,
+    "offset": [-60, 0],
+    "top": {
+      "x": 600,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 590,
+      "y": 164,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Tyumen",
+    "url": "http://193.33.166.21/mjpg/video.mjpg",
+    "lat": 57.15,
+    "lon": 65.53,
+    "offset": [-60, 0],
+    "top": {
+      "x": 2,
+      "y": 19,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 580,
+      "y": 80,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Yuzhno-Sakhalinsk",
+    "url": "http://188.244.140.250/mjpg/video.mjpg",
+    "lat": 46.96,
+    "lon": 142.73,
+    "offset": [-60, 0],
+    "top": {
+      "x": 2,
+      "y": 19,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 540,
+      "y": 360,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Hong Kong",
+    "url": "http://168.70.86.219/mjpg/video.mjpg",
+    "lat": 22.28,
+    "lon": 113.93,
+    "offset": [-60, 0],
+    "top": {
+      "x": 660,
+      "y": 30,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 690,
+      "y": 130,
+      "w": 20,
+      "h": 20,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Vargashi",
+    "url": "http://114.33.189.156/webcapture.jpg?command=snap&channel=1",
+    "lat": 55.36,
+    "lon":  65.85,
+    "offset": [-60, 0],
+    "top": {
+      "x": 180,
+      "y": 5,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 550,
+      "y": 120,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+    "name": "Yekaterinburg",
+    "url": "http://188.234.242.69/webcapture.jpg?command=snap&channel=1?0",
+    "lat": 56.86,
+    "lon": 60.61,
+    "offset": [-60, 0],
+    "top": {
+      "x": 5,
+      "y": 5,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 290,
+      "y": 210,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+  },
+  {
+  "name": "Ryazan",
+  "url": "http://212.26.225.115/mjpg/video.mjpg",
+  "lat": 54.63,
+  "lon":  39.69,
+  "offset": [-60, 0],
+  "top": {
+    "x": 515,
+    "y": 20,
+    "w": 30,
+    "h": 30,
+    "sat": 190,
+    "con": 1.2,
+    "hue": 0,
+    "br": 1
+  },
+  "bot": {
+    "x": 415,
+    "y": 190,
+    "w": 30,
+    "h": 30,
+    "sat": 280,
+    "con": 1.4,
+    "hue": -20,
+    "br": 0.9
   }
+  },
+  {
+    "name": "Sao Paulo",
+    "url": "http://177.55.162.140:3000/webcapture.jpg?command=snap&channel=1?",
+    "lat": -23.55,
+    "lon": -46.64,
+    "offset": [-60, 0],
+    "top": {
+      "x": 660,
+      "y": 1,
+      "w": 30,
+      "h": 30,
+      "sat": 190,
+      "con": 1.2,
+      "hue": 0,
+      "br": 1
+    },
+    "bot": {
+      "x": 180,
+      "y": 50,
+      "w": 30,
+      "h": 30,
+      "sat": 280,
+      "con": 1.4,
+      "hue": -20,
+      "br": 0.9
+    }
+    },
+    {
+      "name": "Montes Claros",
+      "url": "http://191.242.127.133:8080/webcapture.jpg?command=snap&channel=1?",
+      "lat": -16.74,
+      "lon": -43.86,
+      "offset": [-60, 0],
+      "top": {
+        "x": 10,
+        "y": 1,
+        "w": 30,
+        "h": 30,
+        "sat": 190,
+        "con": 1.2,
+        "hue": 0,
+        "br": 1
+      },
+      "bot": {
+        "x": 70,
+        "y": 360,
+        "w": 30,
+        "h": 30,
+        "sat": 280,
+        "con": 1.4,
+        "hue": -20,
+        "br": 0.9
+      }
+      },
+      {
+        "name": "Barra Do Garcas",
+        "url": "http://177.23.191.149:84/webcapture.jpg?command=snap&channel=1?",
+        "lat": -15.89,
+        "lon": -52.26,
+        "offset": [-60, 0],
+        "top": {
+          "x": 330,
+          "y": 20,
+          "w": 20,
+          "h": 20,
+          "sat": 200,
+          "con": 1.2,
+          "hue": 0,
+          "br": 0.95
+        },
+        "bot": {
+          "x": 210,
+          "y": 20,
+          "w": 20,
+          "h": 20,
+          "sat": 280,
+          "con": 1.4,
+          "hue": -20,
+          "br": 0.9
+        }
+        },
+        {
+          "name": "San Carlos De Bariloche",
+          "url": "http://190.139.84.156/jpg/image.jpg?",
+          "lat": -41.15,
+          "lon": -71.31,
+          "offset": [-60, 0],
+          "top": {
+            "x": 580,
+            "y": 1,
+            "w": 30,
+            "h": 30,
+            "sat": 190,
+            "con": 1.2,
+            "hue": 0,
+            "br": 0.9
+          },
+          "bot": {
+            "x": 600,
+            "y": 60,
+            "w": 30,
+            "h": 30,
+            "sat": 280,
+            "con": 1.4,
+            "hue": -20,
+            "br": 0.9
+          }
+          },
+          {
+            "name": "Stebbins",
+            "url": "http://24.237.247.214/-wvhttp-01-/GetOneShot?image_size=640x480&",
+            "lat": 63.47,
+            "lon": -162.26,
+            "offset": [-60, 0],
+            "top": {
+              "x": 1,
+              "y": 1,
+              "w": 30,
+              "h": 30,
+              "sat": 190,
+              "con": 1.2,
+              "hue": 0,
+              "br": 1
+            },
+            "bot": {
+              "x": 510,
+              "y": 180,
+              "w": 30,
+              "h": 30,
+              "sat": 280,
+              "con": 1.4,
+              "hue": -20,
+              "br": 0.9
+            }
+            },
+            {
+            "name": "Palmer",
+            "url": "http://216.137.193.119/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+            "lat": 61.60,
+            "lon": -149.41,
+            "offset": [-60, 0],
+            "top": {
+              "x": 290,
+              "y": 1,
+              "w": 30,
+              "h": 30,
+              "sat": 190,
+              "con": 1.2,
+              "hue": 0,
+              "br": 0.95
+            },
+            "bot": {
+              "x": 480,
+              "y": 470,
+              "w": 30,
+              "h": 30,
+              "sat": 280,
+              "con": 1.4,
+              "hue": -20,
+              "br": 0.9
+            }
+        }
 ]
