@@ -271,7 +271,7 @@ SunsetGradient.prototype.getSunsetColors = function(city, callback) {
 
     // cut stream to save user trafic
     webcamImage.removeEventListener('load', handleWebcamImageLoad);
-    webcamImage.src = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D';
+    webcamImage.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
   }
 
   webcamImage.addEventListener('load', handleWebcamImageLoad);
