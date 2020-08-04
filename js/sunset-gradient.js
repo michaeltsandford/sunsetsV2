@@ -246,6 +246,7 @@ SunsetGradient.prototype.getSunsetPartColor = function(city, webcamImage, part, 
 SunsetGradient.prototype.getSunsetColors = function(city, callback) {
   var self = this;
   var colors = {};
+  var webcamImageIframe = document.createElement('iframe');
   var webcamImage = new Image();
 
   /**
@@ -272,6 +273,8 @@ SunsetGradient.prototype.getSunsetColors = function(city, callback) {
     // cut stream to save user trafic
     webcamImage.removeEventListener('load', handleWebcamImageLoad);
     webcamImage.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
+    webcamImageIframe.contentWindow.stop();
+    webcamImageIframe.remove();
   }
 
   webcamImage.addEventListener('load', handleWebcamImageLoad);
@@ -280,10 +283,17 @@ SunsetGradient.prototype.getSunsetColors = function(city, callback) {
     callback(new Error('Unable to load webcam image'));
   });
 
-  webcamImage.crossOrigin = 'anonymous';
-  webcamImage.src = this.proxyUrl + city.url;
+  webcamImageIframe.addEventListener('load', function() {
+    webcamImageIframe.contentDocument.body.appendChild(webcamImage);
+    webcamImage.crossOrigin = 'anonymous';
+    webcamImage.src = self.proxyUrl + city.url;
+    self.debug('Loading webcam image from %s', webcamImage.src);
+  });
 
-  this.debug('Loading webcam image from %s', webcamImage.src);
+  webcamImageIframe.className = 'sunset-gradient-iframe';
+  webcamImageIframe.srcdoc = '<body></body>';
+
+  self.container.appendChild(webcamImageIframe);
 };
 
 /**
