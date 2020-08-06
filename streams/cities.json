@@ -1273,7 +1273,7 @@
     "url": "http://114.33.189.156/webcapture.jpg?command=snap&channel=1",
     "lat": 55.36,
     "lon":  65.85,
-    "offset": [-60, 0],
+    "offset": [-300, -280],
     "top": {
       "x": 180,
       "y": 5,
