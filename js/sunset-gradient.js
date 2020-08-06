@@ -326,7 +326,7 @@ SunsetGradient.prototype.isSunsetCity = function(city) {
   var now = new Date();
   var times = this.getCitySunsetTimes(city);
 
-  return !city.isBlacklisted && times.sunsetStart && times.dusk && times.sunsetStart <= now && times.dusk >= now;
+  return !city.isBlacklisted && self.getCitySunsetTimes(city).sunsetStart > new Date();
 };
 
 /**
