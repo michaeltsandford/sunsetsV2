@@ -326,7 +326,7 @@ SunsetGradient.prototype.isSunsetCity = function(city) {
   var now = new Date();
   var times = this.getCitySunsetTimes(city);
 
-  return !city.isBlacklisted && self.getCitySunsetTimes(city).sunsetStart > new Date();
+  return !city.isBlacklisted && times.sunsetStart && times.dusk && times.sunsetStart <= now && times.dusk >= now;
 };
 
 /**
@@ -362,7 +362,7 @@ SunsetGradient.prototype.updateSunsetCity = function() {
   if (!this.sunsetCity) {
     this.sunsetCity = this.cities
       .filter(function(city) {
-        return self.getCitySunsetTimes(city).sunsetStart > new Date();
+        return !city.isBlacklisted && self.getCitySunsetTimes(city).sunsetStart > new Date();
       })
       .sort(function(a, b) {
         return self.getCitySunsetTimes(a).sunsetStart - self.getCitySunsetTimes(b).sunsetStart;
@@ -390,7 +390,7 @@ SunsetGradient.prototype.refreshGradient = function() {
 
     this.debug('Current time: %s', new Date());
     this.debug('Sunset start: %s', times.sunsetStart);
-    this.debug('Sunset end:   %s',times.dusk);
+    this.debug('Sunset end:   %s', times.dusk);
   }
 
   if (this.sunsetCity) {
