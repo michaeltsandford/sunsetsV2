@@ -513,33 +513,6 @@
     }
   },
   {
-    "name": "Tallinn",
-    "url": "http://37.157.69.234:8000/-wvhttp-01-/GetOneShot?image_size=640x480&",
-    "lat": 59.44,
-    "lon": 24.75,
-    "offset": [-280, -110],
-    "top": {
-      "x": 730,
-      "y": 1,
-      "w": 30,
-      "h": 30,
-      "sat": 160,
-      "con": 1,
-      "hue": 0,
-      "br": 1.1
-    },
-    "bot": {
-      "x": 550,
-      "y": 190,
-      "w": 30,
-      "h": 30,
-      "sat": 240,
-      "con": 1.2,
-      "hue": -10,
-      "br": 0.9
-    }
-  },
-  {
     "name": "Sierre",
     "url": "http://213.221.142.195:8888/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
     "lat": 46.29,
