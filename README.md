@@ -1,1 +1,10 @@
 # sunsetsV2
+
+EDIT
+RELEASE
+PURGE
+
+
+https://purge.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/js/sunset-gradient.js
+https://purge.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/css/sunset-gradient.css
+https://purge.jsdelivr.net/gh/michaeltsandford/sunsetsV2@latest/streams/cities.json
