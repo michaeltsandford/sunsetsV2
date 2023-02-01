@@ -166,7 +166,7 @@ SunsetGradient.prototype.loadCities = function(url, callback) {
   request.onerror = callback;
 
   request.open('GET', url, true);
-  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+  
   request.send();
 };
 
