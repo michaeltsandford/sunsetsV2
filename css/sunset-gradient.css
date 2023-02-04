@@ -4,7 +4,7 @@
 
 .sunset-gradient {
   position: static;
-  background: linear-gradient(#cfd6ff, #ffe0e9, #ffe7d7, #ffe5c3);
+  background: black;
   background-size: 23% 23%;
   animation: sunset-gradient-loading-gradient 15s ease infinite;
 }
